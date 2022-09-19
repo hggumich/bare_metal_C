@@ -28,6 +28,6 @@ int main(void)
 	for(;;) {
 		// Toggle LED2
 		HAL_GPIO_TogglePin(LED2_GPIO_PORT, LED2_PIN);
-		HAL_Delay(1000); //Delay 400ms
+		HAL_Delay(5000); //Delay 400ms
 	}
 }

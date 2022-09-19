@@ -1,0 +1,17 @@
+19:44:48 **** Build of configuration Debug for project 04.numbers ****
+make all 
+Building file: ../src/04.numbers.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/04.numbers.d" -MT"src/04.numbers.o" -o "src/04.numbers.o" "../src/04.numbers.c"
+../src/04.numbers.c:10:7: error: expected expression
+return
+      ^
+../src/04.numbers.c:10:7: error: expected '}'
+../src/04.numbers.c:3:1: note: to match this '{'
+{
+^
+2 errors generated.
+make: *** [src/04.numbers.o] Error 1
+
+19:44:49 Build Finished (took 457ms)
+
